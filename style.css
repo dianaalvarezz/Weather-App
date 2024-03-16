@@ -53,13 +53,14 @@ button:hover {
     background: #8b48d7; /* Darker purple on hover */
 }
 
+/* Detailed Weather Info Styles */
 #temp-div p {
-    font-size: 60px;
-    margin-top: -30px;
+    font-size: 60px; /* Large font size for emphasis */
+    margin-top: -30px; /* Adjust position */
 }
 
 #weather-info {
-    font-size: 20px;
+    font-size: 20px; /* Clear visibility */
 }
 
 #weather-icon {
@@ -67,35 +68,36 @@ button:hover {
     height: 200px;
     margin: 0 auto 10px;
     margin-bottom: 0;
-    display: none;
+    display: none; /* Hidden by default, show via JS */
 }
 
+/* Hourly Forecast Scrollable List */
 #hourly-forecast {
     margin-top: 50px;
-    overflow-x: auto;
-    white-space: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space items evenly */
 }
 
 .hourly-item {
-    flex: 0 0 auto;
-    width: 88px;
+    flex: 0 0 auto; /* Prevent stretching */
+    width: 88px; /* Fixed width */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-    color: white;
+    align-items: center; /* Center items horizontally */
+    margin-right: 10px; /* Space between items */
+    color: white; /* White text for contrast */
 }
 
 .hourly-item img {
     width: 30px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; /*Space above the temperature */
 }
 
 #hourly-heading {
-    color: #fff;
+    color: #fff;  /* White text for contrast */
     margin-top: 10px;
 
 }
